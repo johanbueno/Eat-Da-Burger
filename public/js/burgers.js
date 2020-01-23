@@ -27,8 +27,8 @@ $(function() {
 
     var newBurger = {
       burger_name: $("#ca").val().trim(),
-      devoured: $("#db").val()
-    };
+      // devoured: true
+    }
 
     // Send the POST request.
     $.ajax("/api/burgers", {
