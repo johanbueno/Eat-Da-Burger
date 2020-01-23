@@ -1,13 +1,35 @@
 li {
-  padding: 5px;
-  margin: 5px;
-  background: #faebd7;
+  list-style-type: none;
+  padding: 20px;
+  margin: 20px;
+  background: rgb(158, 112, 95);
   margin: 0 auto;
-}
-body{
-  background-color: rgb(211, 188, 86);
-}
+  border-radius: 15%;
 
+}
+ html {
+   background-color: rgb(158, 112, 95);
+   color: cornsilk;
+ }
+ body {
+  background-image: url("wood.jpg");
+
+}
+ /* .toeat {
+background-color: rgb(43, 43, 153);
+ }
+ .eaten{
+  background-color: rgb(43, 43, 153);
+ } */
+h1 {
+  text-align: center;
+  color: aliceblue;
+  font-style: italic;
+}
+.main_panel {
+width: 70%;
+color: aliceblue;
+}
 .label {
   font-weight: bold;
 }
@@ -17,7 +39,10 @@ body{
   margin: 5px;
   background: aqua;
 }
-
+.submit-panel{
+  margin-top: 50px;
+  margin-left: 400px;
+}
 .form-group {
   margin-bottom: 5px;
 }
