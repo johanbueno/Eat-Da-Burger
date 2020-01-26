@@ -2,7 +2,7 @@ li {
   list-style-type: none;
   padding: 20px;
   margin: 20px;
-  background: rgb(158, 112, 95);
+  background: rgb(82, 73, 69);
   margin: 0 auto;
   border-radius: 15%;
 
@@ -10,6 +10,9 @@ li {
  html {
    background-color: rgb(158, 112, 95);
    color: cornsilk;
+ }
+ h2 {
+   text-align: center;
  }
  body {
   background-image: url("wood.jpg");
@@ -41,7 +44,7 @@ color: aliceblue;
 }
 .submit-panel{
   margin-top: 50px;
-  margin-left: 400px;
+  text-align: center;
 }
 .form-group {
   margin-bottom: 5px;
